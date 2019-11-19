@@ -1,0 +1,11 @@
+#层级关系严格
+#指定jsp文件的位置
+server:
+  port: 8080
+  servlet:
+    context-path: /test
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
